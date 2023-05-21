@@ -10,6 +10,14 @@ function soma2(a, b=1){ // b=1 é o valor padrão de b caso não seja enviado po
     return a + b
 }
 
+// Adicionando uma função em uma variável
+const soma3 = function (a, b){console.log(a + b)}
+
+// Adicionando uma função arrow em uma variável com retorno implícito
+const soma4 = (a, b) => a + b
+
 soma1(2, 3)
 console.log(soma2(2, 4))
 console.log(soma2(4))
+soma3(3, 6)
+console.log(soma4(4, 7))
