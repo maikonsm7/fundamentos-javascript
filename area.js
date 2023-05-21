@@ -3,4 +3,4 @@
 let raio = 3
 let resultado = Math.PI * raio * raio
 
-console.log("O valor da área é: " + resultado + " m2")
+console.log("O valor da área é: " + resultado + "m2")
