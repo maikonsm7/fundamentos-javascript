@@ -1,5 +1,4 @@
 // Tipos de dados
-
 // Todo número em javascript é number
 
 console.log(typeof 31) // number
