@@ -26,3 +26,17 @@ console.log(a);
 
 const [n1, ,n3, ,n5, n6 = 0] = [1, 2, 3, 4, 5] // ignora os elementos 2 e 4
 console.log(n1, n3, n5, n6);
+
+// Destructuring em função
+function randomico({min = 0, max = 100}){ //função que recebe como parametro um objeto e extrai apenas as duas variáveis min e max
+    const valor = Math.random() * (max - min) + min // gerar um número randomico no intervalo informado
+    return Math.floor(valor)
+}
+
+const obj = {
+    min: 10,
+    max: 80
+}
+console.log(randomico(obj));
+console.log(randomico({min: 50}));
+console.log(randomico({}));
