@@ -1,0 +1,23 @@
+{
+  "name": "fundamentos-javascript",
+  "version": "1.0.0",
+  "description": "Fundamentos básicos do JavaScript. Assuntos abordados: Tipo de dados, função, objeto, array etc.",
+  "main": "area.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maikonsm43/fundamentos-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maikonsm43/fundamentos-javascript/issues"
+  },
+  "homepage": "https://github.com/Maikonsm43/fundamentos-javascript#readme",
+  "dependencies": {
+    "node-schedule": "^2.1.1"
+  }
+}
